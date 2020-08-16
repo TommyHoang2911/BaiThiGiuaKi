@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Result">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="BẠN NÊN CHỌN"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:id="@+id/textAge"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="-20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:textColor="#808080"
+        android:text="Lý do : mùa Covid này đỡ cạp đất mà ăn :)) "
+        ></TextView>
+    <Button
+        android:id="@+id/btnThank"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="13dp"
+        android:text="CẢM ƠN, ĐÚNG Ý MÌNH RỒI"
+        ></Button>
+    <Button
+        android:id="@+id/btnChooseAgain"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="-50dp"
+        android:textSize="13dp"
+        android:text="CHỌN LẠI ĐỨA KHÁC XEM"
+        ></Button>
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="THOÁT"
+        ></Button>
+    
+</LinearLayout>
